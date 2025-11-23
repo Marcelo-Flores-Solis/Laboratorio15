@@ -3,7 +3,7 @@ const secciones = document.querySelectorAll('section');
 secciones.forEach((section, idx) => {
   section.setAttribute('data-index', idx + 1);
 
-// datos
+// span 
   const span = document.createElement('span');
   span.textContent = ` (data-index: ${idx + 1})`;
   span.style.color = "red";
